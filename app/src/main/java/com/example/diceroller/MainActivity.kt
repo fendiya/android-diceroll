@@ -14,13 +14,14 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val rollButton: Button = findViewById(R.id.roll_button)
-        rollButton.setOnClickListener{
-            rollDice()
-        }
-
-        rollImage = findViewById(R.id.roll_image)
+//        setContentView(R.layout.activity_main)
+        setContentView(R.layout.about_me)
+//        val rollButton: Button = findViewById(R.id.roll_button)
+//        rollButton.setOnClickListener{
+//            rollDice()
+//        }
+//
+//        rollImage = findViewById(R.id.roll_image)
     }
 
     private fun rollDice() {
